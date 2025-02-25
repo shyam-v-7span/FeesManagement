@@ -1,6 +1,7 @@
 package com.FeesManagement.model;
 
 import com.FeesManagement.enums.FeeStatus;
+import com.FeesManagement.util.LoggerUtil;
 
 import java.time.LocalDate;
 
