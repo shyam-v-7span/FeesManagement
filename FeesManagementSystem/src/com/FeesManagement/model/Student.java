@@ -1,7 +1,6 @@
 package com.FeesManagement.model;
 
 import com.FeesManagement.enums.FeeStatus;
-import com.FeesManagement.util.LoggerUtil;
 
 import java.time.LocalDate;
 
@@ -40,8 +39,8 @@ public class Student {
         this.status = status;
     }
 
-    public boolean isPaymentLate(){
-        return LocalDate.now().isAfter(dueDate);
+    public LocalDate getDueDate() {
+        return dueDate;
     }
 
     public void displayStudentDetails() {
